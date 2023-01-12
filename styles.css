@@ -4,6 +4,25 @@ body{
     align-items: center;
     height: 100vh;
     background-color: rgb(51, 84, 84);
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+      
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) 
+and (user-agent : "Safari")
+{
+/* Styles for Safari on iPhones */
+body {
+    font-size: 16px;
+  }
+/* Add other styles as needed */
 }
 
 .calculator {
